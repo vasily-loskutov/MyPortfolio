@@ -1,0 +1,9 @@
+.nav {
+  @apply flex gap-x-10 justify-center content-center text-center items-center;
+  & > li {
+    @apply text-white text-base font-medium transition-all hover:border-b-4 border-violet h-7;
+  }
+}
+.select {
+  @apply border-b-4 border-violet h-7;
+}

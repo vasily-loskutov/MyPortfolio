@@ -1,0 +1,30 @@
+.aboutBlock {
+  @apply bg-accentBlack flex-auto;
+}
+.aboutSection {
+  @apply mx-auto  pt-44 pb-60 flex flex-col items-center text-center flex-wrap max-w-screen-sm bg-no-repeat bg-center bg-[url('./src/assets/img/Abstract.png')];
+  & > * {
+    @apply text-white;
+  }
+  & > p {
+    @apply font-medium text-lg mt-5 mb-10;
+  }
+  .title {
+    @apply font-bold text-6xl text-center;
+    & > span {
+      @apply text-violet;
+    }
+  }
+  .button {
+    @apply py-3 px-7 bg-violet rounded cursor-pointer transition-all hover:bg-violetHover;
+  }
+}
+.projectsPage {
+  @apply mx-auto mt-16 flex flex-col items-center flex-auto grow shrink-0 basis-auto;
+  .projectsBlock {
+    @apply flex justify-center flex-col;
+  }
+  .projectsContainer {
+    @apply flex flex-wrap my-14 gap-8 items-center justify-center;
+  }
+}

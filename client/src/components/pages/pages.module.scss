@@ -1,0 +1,18 @@
+.page {
+  @apply mt-16 flex justify-center pb-32  flex-auto grow shrink-0 basis-auto;
+}
+.mainBlock {
+  @apply flex flex-col  items-center gap-y-10 mb-64;
+}
+.sectionBlock {
+  @apply flex flex-col items-center gap-y-5;
+  & > h1 {
+    @apply text-accentBlack font-DM-sans-bold font-bold text-4xl text-center;
+  }
+  & > p {
+    @apply font-normal font-DM-sans-medium text-lg text-center  max-w-lg flex flex-wrap;
+  }
+}
+.title {
+  @apply text-accentBlack font-bold text-4xl;
+}

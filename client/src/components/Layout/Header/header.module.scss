@@ -1,0 +1,19 @@
+.header {
+  @apply bg-accentBlack font-header-font border-b-dividerColor border-b-2 flex justify-center flex-auto grow shrink-0 basis-auto;
+}
+
+.headerContainer {
+  @apply container pt-4 pb-3 md:flex justify-around;
+}
+.logo {
+  @apply flex gap-x-3 items-center justify-center;
+  & > h1 {
+    @apply font-bold text-2xl;
+  }
+  & > span {
+    @apply font-normal text-2xl;
+  }
+  & > * {
+    @apply text-white;
+  }
+}
